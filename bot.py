@@ -33,8 +33,14 @@ async def start(bot, message):
 
 <spoiler><b>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://telegram.me/xayonara_contact_bot'>✘ 𝐚 𝐲 𝐨 𝐧 𝐚 𝐫 𝐚.</a></b></spoiler>
     """
-    await message.reply_text(start_msg, disable_web_page_preview=True, quote=True)
-
+    await message.reply_photo(
+        photo="https://envs.sh/aL3.jpg",
+        caption=start_msg,
+        parse_mode="html",
+        disable_web_page_preview=True,
+        quote=True,
+        has_spoiler=True
+    )
 
 @bot.on_message(filters.regex(r'https?://[^\s]+') & filters.private)
 async def link_handler(bot, message):
