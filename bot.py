@@ -33,6 +33,8 @@ Send me a link to short a link with random alias.
 For custom alias, <code>[link] | [custom_alias]</code>, Send in this format\n
 Ex: https://t.me/example | Example
 
+<spoiler><b>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://telegram.me/xayonara_contact_bot'>✘ 𝐚 𝐲 𝐨 𝐧 𝐚 𝐫 𝐚.</a></b></spoiler>
+
     """
     await message.reply_text(start_msg, disable_web_page_preview=True, quote=True)
 
