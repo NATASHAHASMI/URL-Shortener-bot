@@ -26,10 +26,10 @@ async def start(bot, message):
     start_msg = f"""
 <b>Hi {message.from_user.mention}!</b>
 
-<i><b>I'ᴍ {WEBSITE} Bᴏᴛ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Lɪɴᴋ Aɴᴅ Gᴇᴛ Sʜᴏʀᴛ Lɪɴᴋ!</b></i>
+<i>I'ᴍ {WEBSITE} Bᴏᴛ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Lɪɴᴋ Aɴᴅ Gᴇᴛ Sʜᴏʀᴛ Lɪɴᴋ!</i>
 
-<i><b>Fᴏʀ Cᴜꜱᴛᴏᴍ Aʟɪᴀꜱ, <code>[link] | [custom_alias]</code>, Sᴇɴᴅ Iɴ Tʜɪꜱ Fᴏʀᴍᴀᴛ\n
-Ex: https://t.me/xayoonara | Xayonara</b></i>
+<i>Fᴏʀ Cᴜꜱᴛᴏᴍ Aʟɪᴀꜱ, <code>[link] | [custom_alias]</code>, Sᴇɴᴅ Iɴ Tʜɪꜱ Fᴏʀᴍᴀᴛ</i>\n
+<b>Ex: https://t.me/xayoonara | Xayonara</b>
 
 <spoiler><b>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://telegram.me/xayonara_contact_bot'>✘ 𝐚 𝐲 𝐨 𝐧 𝐚 𝐫 𝐚.</a></b></spoiler>
     """
