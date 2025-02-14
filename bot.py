@@ -24,17 +24,14 @@ except Exception:
 @bot.on_message(filters.command('start'))
 async def start(bot, message):
     start_msg = f"""
-Hi {message.chat.first_name}!
+<b>Hi {message.from.user_mention}!</b>
 
-I'm {WEBSITE} bot. Just send me link and get short link!
+<i><b>I'ᴍ {WEBSITE} Bᴏᴛ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Lɪɴᴋ Aɴᴅ Gᴇᴛ Sʜᴏʀᴛ Lɪɴᴋ!</b></i>
 
-Send me a link to short a link with random alias.
-
-For custom alias, <code>[link] | [custom_alias]</code>, Send in this format\n
-Ex: https://t.me/example | Example
+<i><b>Fᴏʀ Cᴜꜱᴛᴏᴍ Aʟɪᴀꜱ, <code>[link] | [custom_alias]</code>, Sᴇɴᴅ Iɴ Tʜɪꜱ Fᴏʀᴍᴀᴛ\n
+Ex: https://t.me/xayoonara | Xayonara</b></i>
 
 <spoiler><b>🔋 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ - <a href='https://telegram.me/xayonara_contact_bot'>✘ 𝐚 𝐲 𝐨 𝐧 𝐚 𝐫 𝐚.</a></b></spoiler>
-
     """
     await message.reply_text(start_msg, disable_web_page_preview=True, quote=True)
 
