@@ -24,7 +24,7 @@ except Exception:
 @bot.on_message(filters.command('start'))
 async def start(bot, message):
     start_msg = f"""
-<b>Hi {message.from.user_mention}!</b>
+<b>Hi {message.from_user.mention}!</b>
 
 <i><b>I'ᴍ {WEBSITE} Bᴏᴛ. Jᴜꜱᴛ Sᴇɴᴅ Mᴇ Lɪɴᴋ Aɴᴅ Gᴇᴛ Sʜᴏʀᴛ Lɪɴᴋ!</b></i>
 
