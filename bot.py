@@ -1,5 +1,6 @@
 import os
 import aiohttp
+from telegram import InputMediaPhoto
 from pyrogram import Client, filters
 
 API_ID = os.environ.get('API_ID')
