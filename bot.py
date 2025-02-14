@@ -38,7 +38,6 @@ async def start(bot, message):
         photo="https://envs.sh/aL3.jpg",
         caption=start_msg,
         parse_mode="html",
-        disable_web_page_preview=True,
         quote=True,
         has_spoiler=True
     )
