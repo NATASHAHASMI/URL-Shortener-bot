@@ -37,7 +37,7 @@ async def start(bot, message):
     await message.reply_photo(
         photo="https://envs.sh/aL3.jpg",
         caption=start_msg,
-        parse_mode="html",
+        parse_mode="markdown",
         quote=True,
         has_spoiler=True
     )
